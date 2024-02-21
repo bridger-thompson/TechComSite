@@ -5,13 +5,13 @@ import { Section } from "./Section";
 function App() {
   return (
     <>
-      <nav className="navbar navbar-dark bg-dark">
+      <nav className="navbar navbar-dark bg-primary">
         <a className="navbar-brand" href="#">
           Logo
         </a>
       </nav>
       <div
-        className="bg-secondary-subtle d-flex flex-column align-items-center justify-content-center"
+        className="bg-secondary d-flex flex-column align-items-center justify-content-center"
         style={{ height: "40ex" }}
       >
         <h1 className="text-center">Welcome to the World of AI!</h1>
@@ -56,16 +56,16 @@ function App() {
           <h2 className="text-center">Using AI Tools</h2>
           <div className="row m-4 row-cols-4">
             <div className="px-1">
-              <Card image={""} text={"ChatGPT"} />
+              <Card image={""} text={"ChatGPT"} url="https://chat.openai.com/" />
             </div>
             <div className="px-1">
-              <Card image={""} text={"Dalle"} />
+              <Card image={""} text={"Dall-E"} url="https://openai.com/dall-e-2" />
             </div>
             <div className="px-1">
-              <Card image={""} text={"Gemini"} />
+              <Card image={""} text={"Gemini"} url="https://gemini.google.com/?utm_source=google&utm_medium=cpc&utm_campaign=2024enUS_gemfeb&gad_source=1&gclid=CjwKCAiA29auBhBxEiwAnKcSqqHbBcV7PHRbFslkimdF5WbDEo3LEQaq5mhGHYyjwb_Ix_y6iKcZXBoC7yAQAvD_BwE" />
             </div>
             <div className="px-1">
-              <Card image={""} text={"Copilot"} />
+              <Card image={""} text={"Copilot"} url="https://www.microsoft.com/en-us/microsoft-copilot/?ef_id=_k_CjwKCAiA29auBhBxEiwAnKcSqjgR_461S3QxXWb-OBN__15bZvvVOEC-3G6RGRJmYvF7Evd9_kqmfhoCOKYQAvD_BwE_k_&OCID=AIDcmm1o1fzy5i_SEM__k_CjwKCAiA29auBhBxEiwAnKcSqjgR_461S3QxXWb-OBN__15bZvvVOEC-3G6RGRJmYvF7Evd9_kqmfhoCOKYQAvD_BwE_k_&gad_source=1&gclid=CjwKCAiA29auBhBxEiwAnKcSqjgR_461S3QxXWb-OBN__15bZvvVOEC-3G6RGRJmYvF7Evd9_kqmfhoCOKYQAvD_BwE" />
             </div>
           </div>
           <p className="mx-auto fs-5">
@@ -78,7 +78,6 @@ function App() {
           <div className="row">
             <div className="col-md-6">
               <h3 className="fs-3">Choosing the Right Tool</h3>
-              <p>Identify your need to select an appropriate AI application.</p>
               <h4 className="text-muted">Blogging or Article Writing</h4>
               <p>
                 Use AI writing assistants like ChatGPT to generate drafts,
@@ -190,13 +189,13 @@ function App() {
           </p>
           <div className="row my-4 row-cols-3">
             <div className="px-1">
-              <Card image={""} text={"OpenAI Blog"} />
+              <Card image={""} text={"OpenAI Blog"} url="https://openai.com/blog" />
             </div>
             <div className="px-1">
-              <Card image={""} text={"AI News"} />
+              <Card image={""} text={"AI News"} url="https://www.artificialintelligence-news.com/" />
             </div>
             <div className="px-1">
-              <Card image={""} text={"AI Ethics"} />
+              <Card image={""} text={"AI Ethics"} url="https://www.coursera.org/articles/ai-ethics" />
             </div>
           </div>
         </div>

@@ -8,9 +8,9 @@ export const Footer = () => {
           <div className="col-md-3 col-sm-6">
             <h5>About Us</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="text-light">Our Story</a></li>
-              <li><a href="/" className="text-light">Team</a></li>
-              <li><a href="/" className="text-light">Careers</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light">Our Story</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light">Team</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light">Careers</a></li>
             </ul>
           </div>
 
@@ -18,9 +18,9 @@ export const Footer = () => {
           <div className="col-md-3 col-sm-6">
             <h5>Services</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="text-light">Text Generation</a></li>
-              <li><a href="/" className="text-light">Image Generation</a></li>
-              <li><a href="/" className="text-light">Data Analysis</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light">Text Generation</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light">Image Generation</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light">Data Analysis</a></li>
             </ul>
           </div>
 
@@ -28,9 +28,9 @@ export const Footer = () => {
           <div className="col-md-3 col-sm-6">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="text-light">Contact Us</a></li>
-              <li><a href="/" className="text-light">FAQ</a></li>
-              <li><a href="/" className="text-light">Support</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light">Contact Us</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light">FAQ</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light">Support</a></li>
             </ul>
           </div>
 
@@ -49,10 +49,10 @@ export const Footer = () => {
         {/* Social Media Links */}
         <div className="row mt-4">
           <div className="col text-center">
-            <a href="h://facebook.com" className="text-light me-2"><i className="bi bi-facebook"></i></a>
-            <a href="h://twitter.com" className="text-light me-2"><i className="bi bi-twitter"></i></a>
-            <a href="h://instagram.com" className="text-light me-2"><i className="bi bi-instagram"></i></a>
-            <a href="h://linkedin.com" className="text-light"><i className="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light me-2"><i className="bi bi-facebook"></i></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light me-2"><i className="bi bi-twitter"></i></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light me-2"><i className="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer" className="text-light"><i className="bi bi-linkedin"></i></a>
           </div>
         </div>
 
