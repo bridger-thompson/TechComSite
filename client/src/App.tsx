@@ -1,6 +1,7 @@
 import { Card } from "./Card";
 import { Footer } from "./Footer";
 import { Section } from "./Section";
+import catUrl from "./assets/cat.webp";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Section
           title="How does it work?"
           text="It starts with giving the computer lots and lots of examples or information, this could be pictures, words, or numbers. Then, the computer practices by looking at all this information to find patterns that help it understand. Just like you might learn to spot a cat by its whiskers and tail, the computer learns from the details it sees."
-          image=""
+          image={catUrl}
           reverse={true}
         />
         <div className="card mb-4 bg-secondary-subtle shadow-sm">
