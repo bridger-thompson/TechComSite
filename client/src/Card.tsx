@@ -7,11 +7,12 @@ export const Card: FC<{
 }> = ({ image, text, url }) => {
   if (url) return (
     <a href={url} target='_blank' rel="noreferrer"
-      className='text-reset text-decoration-none list-group'>
-      <div className='card shadow-sm list-group-item list-group-item-action'>
-        <div className='card-body'>
+      className='text-reset text-decoration-none my-1 bg-hover'>
+      <div className='card shadow bg-dark text-white border-black h-100'>
+        <div className='card-body px-0 text-center'>
           <div className='card-title'>
-            <img src={image} alt="Icon" />
+            <img src={image} className='img-fluid rounded-4' alt="Icon"
+              style={{ maxHeight: "8ex" }} />
           </div>
           <div>{text}</div>
         </div>
@@ -19,8 +20,8 @@ export const Card: FC<{
     </a>
   )
   return (
-    <div className='card shadow-sm'>
-      <div className='card-body'>
+    <div className='card shadow my-1 bg-transparent border-black bg-hover h-100'>
+      <div className='card-body px-0'>
         <div className='card-title'>
           <img src={image} alt="Icon" />
         </div>

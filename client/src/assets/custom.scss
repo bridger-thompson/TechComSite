@@ -1,5 +1,5 @@
-$primary: #0047AB;
-$secondary: #E5E4E2;
+$primary: #10366c;
+$light: #e4e1e1;
 
 @import "./bootstrap-color-initialization.scss";
 $theme-colors: (
@@ -15,3 +15,9 @@ $theme-colors: (
 
 
 @import "bootstrap/scss/bootstrap.scss";
+
+.bg-hover {
+  :hover {
+    background-color: $gray-800;
+  }
+}
