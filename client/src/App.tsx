@@ -22,37 +22,33 @@ function App() {
           text="Artificial Intelligence (AI) mimics human intelligence, enabling machines to learn, reason, and solve problems. It’s been around for a long time, but recently has gone through a resurgence as companies have leveraged increased computing power to discover new breakthroughs."
           image=""
         />
-        <div className="row">
-          <div className="col-md-6"></div>
-          <div className="col-md-6">
-            <div className="card mb-4">
-              <div className="card-body">
-                <div className="card-title fs-3">Key Terms Explained</div>
-                <p>
-                  <strong>Large Language Models (LLMs)</strong>: AI systems
-                  trained on vast text datasets to understand, model, and
-                  generate human-like language.
-                </p>
-                <p>
-                  <strong>Generative AI (GAI)</strong>: AI capable of creating
-                  new content, such as images, text, or music.
-                </p>
-                <p>
-                  <strong>Machine Learning (ML)</strong>: A subset of AI where
-                  machines learn from data over time.
-                </p>
-                <p>
-                  <strong>Neural Networks</strong>: Computing systems inspired
-                  by biological neural networks.
-                </p>
-              </div>
-            </div>
+        <Section
+          title="How does it work?"
+          text="It starts with giving the computer lots and lots of examples or information, this could be pictures, words, or numbers. Then, the computer practices by looking at all this information to find patterns that help it understand. Just like you might learn to spot a cat by its whiskers and tail, the computer learns from the details it sees."
+          image=""
+          reverse={true}
+        />
+        <div className="card mb-4 bg-secondary-subtle shadow-sm">
+          <div className="card-body">
+            <div className="card-title fs-3">Key Terms Explained</div>
+            <p>
+              <strong>Large Language Models (LLMs)</strong>: AI systems
+              trained on vast text datasets to understand, model, and
+              generate human-like language.
+            </p>
+            <p>
+              <strong>Generative AI (GAI)</strong>: AI capable of creating
+              new content, such as images, text, or music.
+            </p>
+            <p>
+              <strong>Machine Learning (ML)</strong>: A subset of AI where
+              machines learn from data over time.
+            </p>
+            <p>
+              <strong>Neural Networks</strong>: Computing systems inspired
+              by biological neural networks.
+            </p>
           </div>
-          <Section
-            title="How does it work?"
-            text="It starts with giving the computer lots and lots of examples or information, this could be pictures, words, or numbers. Then, the computer practices by looking at all this information to find patterns that help it understand. Just like you might learn to spot a cat by its whiskers and tail, the computer learns from the details it sees."
-            image=""
-          />
         </div>
       </div>
       <section className="bg-primary-subtle">
@@ -72,11 +68,11 @@ function App() {
               <Card image={""} text={"Copilot"} />
             </div>
           </div>
-          <p className="mx-auto">
+          <p className="mx-auto fs-5">
             Using AI can be really simple and fun. You might already be using it
             when you talk to voice assistants on your parents' phone, play
             certain video games, or watch recommendations on a streaming
-            service. Here are some tips to make AI tools work for you.
+            service. Here are some tips to make AI tools work for you:
           </p>
 
           <div className="row">
@@ -105,7 +101,7 @@ function App() {
               </p>
             </div>
             <div className="col-md-6">
-              <h3>Prompt Effectively</h3>
+              <h3>Prompting Effectively</h3>
               <h4 className="text-muted">Be Specific</h4>
               <p>
                 Instead of saying "write a story," try "write a story about a
@@ -140,11 +136,10 @@ function App() {
             title="How will it affect me?"
             text="AI is going to have a big impact on your life by making many things easier and more personalized. In your personal life, AI will make things more convenient and fun, acting like a smart assistant that can help with homework, recommend entertainment based on your likes, and even control smart devices in your home to make everyday tasks easier. AI will also help make existing jobs easier by taking over repetitive or hazardous tasks, allowing people to focus on more creative and fulfilling aspects of their work. As AI continues to evolve, it will not only change the way we work but also open up exciting new career paths that leverage human creativity and innovation."
             image=""
-            reverse={true}
           />
           <div className="row">
             <div className="col-md-6">
-              <div className="card mb-4">
+              <div className="card shadow-sm bg-secondary-subtle mb-4">
                 <div className="card-body">
                   <div className="card-title fs-3">Emerging Trends</div>
                   <p>
@@ -164,7 +159,7 @@ function App() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="card mb-4">
+              <div className="card shadow-sm bg-secondary-subtle mb-4">
                 <div className="card-body">
                   <div className="card-title fs-3">Societal Impacts</div>
                   <p>

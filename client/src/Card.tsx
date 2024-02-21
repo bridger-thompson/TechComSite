@@ -5,7 +5,7 @@ export const Card: FC<{
   text: string
 }> = ({ image, text }) => {
   return (
-    <div className='card'>
+    <div className='card shadow-sm' role='button'>
       <div className='card-body'>
         <div className='card-title'>
           <img src={image} alt="Icon" />
