@@ -13,7 +13,7 @@ export const Section: FC<{
           className="col h-100 text-center my-auto"
           style={{ height: "20ex" }}
         >
-          <img src={image} alt="Picture" />
+          <img src={image} alt="Picture" className="img-fluid"/>
         </div>
         <div className="col h-100">
           <div className="fs-2">{title}</div>
